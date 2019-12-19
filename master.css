@@ -49,3 +49,7 @@ img{
 input{
     width: 400px;
 }
+
+button{
+   margin-left: 1%;
+}
