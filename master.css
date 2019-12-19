@@ -16,6 +16,7 @@ main{
 #title{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     Width: 70%;
     Height: 150px;
     margin-bottom: 30px;
@@ -25,18 +26,26 @@ main{
 }
 h1{
     padding-top: 3%;
-    padding-left:50%;
+   
 }
 
 #selectbtn{
-    padding-left: 10%;
+    align-self: center;
+    width: 60%;
 }
 
 #content{
-    padding-left: 10%;
-    padding-right: 20%;
-    justify-content: start;
+    align-self: center;
+    width: 60%;
+    justify-content: left;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+}
+img{
+    Width: auto;
+    Height: 150px;
+}
+input{
+    width: 400px;
 }
