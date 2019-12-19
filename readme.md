@@ -5,9 +5,12 @@ Create an app using the [Studio Ghibli API](https://ghibliapi.herokuapp.com/#) t
 This app should have (in order of placement in the HTML):
 
 - An image of the [Studio Ghibli logo](https://upload.wikimedia.org/wikipedia/en/thumb/c/ca/Studio_Ghibli_logo.svg/1200px-Studio_Ghibli_logo.svg.png)
+
 - A header (`h1`) that reads "Ghibli Review App"
 - A `select` box that contains the title of each movie available in the API, as well as a default blank selection
+
 - A `div`, empty at first, that will contain the title (`h3`), release year (`p`), and description (`p`) of the selected film.
+
 - A `form`, including a "text" `input` and a "submit" `input`, that allows users to submit (not save, just add to the frontend) a review of that film.
 - A `ul` underneath that `form` that should contain the submitted reviews of each film.
 
